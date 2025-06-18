@@ -4,18 +4,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Guia Definitivo para Emagrecer - Dicas para Mulheres Angolanas</title>
+  <!-- Tailwind CSS -->
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-gray-50 text-gray-800">
   <!-- Hero Section -->
   <section class="bg-white py-16">
     <div class="container mx-auto px-6 text-center">
-      <h1 class="text-4xl font-bold mb-4">Guia Definitivo para Emagrecer</h1>
-      <p class="text-xl mb-8">Dicas práticas e adaptadas para mulheres angolanas</p>
-      <img src="capa-guia.jpg" alt="Capa do E-book" class="mx-auto mb-8 w-64 shadow-lg rounded-lg">
-      <div class="space-x-4">
-        <a href="https://pay.kuenha.com/75b15f83-0cde-490b-aec9-315aebe71b22" target="_blank" class="bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition">Comprar Agora</a>
-        <a href="https://wa.me/244923735627" target="_blank" class="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition">Falar no WhatsApp</a>
+      <h1 class="text-4xl md:text-5xl font-bold mb-4">Guia Definitivo para Emagrecer</h1>
+      <p class="text-lg md:text-xl mb-8">Dicas práticas e adaptadas para mulheres angolanas</p>
+      <img src="./capa-guia.jpg" alt="Capa do E-book" class="mx-auto mb-8 w-64 md:w-80 shadow-lg rounded-lg">
+      <div class="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+        <a href="https://pay.kuenha.com/75b15f83-0cde-490b-aec9-315aebe71b22" target="_blank" class="flex items-center justify-center bg-green-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-700 transition w-full sm:w-auto">
+          <i class="fas fa-shopping-cart mr-2"></i>
+          Comprar Agora
+        </a>
+        <a href="https://wa.me/244923735627" target="_blank" class="flex items-center justify-center bg-green-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-green-600 transition w-full sm:w-auto">
+          <i class="fab fa-whatsapp mr-2"></i>
+          WhatsApp
+        </a>
       </div>
     </div>
   </section>
@@ -53,17 +62,27 @@
     </div>
   </section>
 
-  <!-- Testimonial Section -->
+  <!-- Testimonial Section with Photos -->
   <section class="bg-green-50 py-16">
     <div class="container mx-auto px-6 text-center">
       <h2 class="text-3xl font-bold mb-8">Depoimentos</h2>
-      <div class="space-y-8 max-w-2xl mx-auto">
-        <blockquote class="bg-white p-6 rounded-lg shadow italic">
-          "Eu nunca pensei que poderia emagrecer sem passar fome! Este guia me mostrou que com pequenas mudanças posso ter grandes resultados."<br><span class="font-semibold">– Maria, Luanda</span>
-        </blockquote>
-        <blockquote class="bg-white p-6 rounded-lg shadow italic">
-          "As receitas são deliciosas e fáceis de fazer. Me senti motivada desde o primeiro dia!"<br><span class="font-semibold">– Ana, Lobito</span>
-        </blockquote>
+      <div class="space-y-12 max-w-3xl mx-auto">
+        <!-- Testimonial 1 -->
+        <div class="flex flex-col sm:flex-row items-center bg-white p-6 rounded-lg shadow">
+          <img src="./depoimento-maria.jpg" alt="Maria, Luanda" class="w-20 h-20 rounded-full object-cover mb-4 sm:mb-0 sm:mr-6">
+          <div>
+            <p class="italic mb-2">"Eu nunca pensei que poderia emagrecer sem passar fome! Este guia me mostrou que com pequenas mudanças posso ter grandes resultados."</p>
+            <span class="font-semibold">– Maria, Luanda</span>
+          </div>
+        </div>
+        <!-- Testimonial 2 -->
+        <div class="flex flex-col sm:flex-row items-center bg-white p-6 rounded-lg shadow">
+          <img src="./depoimento-ana.jpg" alt="Ana, Lobito" class="w-20 h-20 rounded-full object-cover mb-4 sm:mb-0 sm:mr-6">
+          <div>
+            <p class="italic mb-2">"As receitas são deliciosas e fáceis de fazer. Me senti motivada desde o primeiro dia!"</p>
+            <span class="font-semibold">– Ana, Lobito</span>
+          </div>
+        </div>
       </div>
     </div>
   </section>
